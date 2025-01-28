@@ -123,7 +123,7 @@ DROP TABLE IF EXISTS movie_actor;
 
 CREATE TABLE studios (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  st_name TEXT,
+  st_name TEXT
 );
 
 CREATE TABLE movies (
@@ -171,7 +171,7 @@ INSERT INTO actors (name) VALUES
 INSERT INTO movie_actor (movies_id, actors_id, character_name) VALUES
 (1, 1, "Bruce Wayne"),
 (1, 2, "Alfred"),
-(1, 3, "Ra\'s Al Ghul"),
+(1, 3, "Ra's Al Ghul"),
 (1, 4, "Rachel Dawes"),
 (1, 5, "Commissioner Gordon"),
 (2, 1, "Bruce Wayne"),
